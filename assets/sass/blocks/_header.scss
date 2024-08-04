@@ -1,0 +1,33 @@
+.header{
+    background-color: $bg-darc;
+    padding: $spc-13;
+    color: $bg-secondary;
+
+    &__headerContainer{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__imgLogo{
+        width: 80px;
+    }
+    &__navbar{
+        display: flex;
+        align-items: center;
+        gap: 2rem;
+    }
+    &__navItem{
+        text-transform: uppercase;
+    }
+    &__navContainer{
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+    }
+    &__btn{
+        padding: $spc-12 $spc-14;
+        border: $spc-10 solid $bg-secondary;
+        background-color: transparent;
+        color: $bg-secondary;
+    }
+}

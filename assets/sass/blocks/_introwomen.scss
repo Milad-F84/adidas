@@ -1,0 +1,23 @@
+.introWomen{
+    background-image: url("/assets/images/backs/woman-slide.webp");
+    height: 70vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    &__introContainer{
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        justify-content: center;
+        align-items: flex-start;
+    }
+    &__h2{
+        text-transform: capitalize;
+    }
+    &__btn{
+        background-color: $bg-main;
+        color: $bg-secondary;
+        padding: 16px 32px;
+        border: none;
+    }
+}

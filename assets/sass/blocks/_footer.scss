@@ -1,0 +1,52 @@
+.footer{
+    background-color: $bg-main;
+    padding: 25vh;
+    &__footerLogo{
+    width: 300px;
+    }
+    &__navbarFoot{
+        color: $bg-secondary;
+    }
+    &__footerContainer{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    }
+    &__navbarFoot{
+        display: flex;
+        gap: 50px;
+    }
+    &__footTitle{
+        display: inline-block;
+        color: inherit;
+        text-decoration: none;
+        text-transform: capitalize;
+        font-size: 25px;
+        margin-bottom: 8px;
+    }
+    &__navbarFootleft{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    &__navbarFootcenter{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    &__navbarFootright{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    &__footBtn{
+        display: block;
+        background-color: $bg-darc;
+        color: $bg-secondary;
+        margin-top: 30px;
+        width: max-content;
+        border-radius: 12px;
+        font-size: 28px;
+        text-transform: uppercase;
+    }
+}
