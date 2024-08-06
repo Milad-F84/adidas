@@ -65,7 +65,7 @@ a {
 }
 
 .intro {
-  background-image: url("/assets/images/backs/slideshow.webp");
+  background-image: url("..//..//images/backs/slideshow.webp");
   height: 70vh;
   background-repeat: no-repeat;
   background-position: center;
@@ -86,6 +86,7 @@ a {
   -webkit-box-align: start;
       -ms-flex-align: start;
           align-items: flex-start;
+  height: 100%;
 }
 .intro__h2 {
   text-transform: capitalize;
@@ -135,7 +136,7 @@ a {
 }
 
 .introWomen {
-  background-image: url("/assets/images/backs/woman-slide.webp");
+  background-image: url("..//../images/backs/woman-slide.webp");
   height: 70vh;
   background-repeat: no-repeat;
   background-position: center;
@@ -156,6 +157,7 @@ a {
   -webkit-box-align: start;
       -ms-flex-align: start;
           align-items: flex-start;
+  height: 100%;
 }
 .introWomen__h2 {
   text-transform: capitalize;

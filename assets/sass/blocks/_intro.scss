@@ -1,5 +1,5 @@
 .intro{
-    background-image: url("/assets/images/backs/slideshow.webp");
+    background-image: url("..//..//images/backs/slideshow.webp");
     height: 70vh;
     background-repeat: no-repeat;
     background-position: center;
@@ -10,6 +10,7 @@
         gap: 1rem;
         justify-content: center;
         align-items: flex-start;
+        height: 100%;
     }
     &__h2{
         text-transform: capitalize;
