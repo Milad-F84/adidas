@@ -96,6 +96,7 @@ a {
   color: #fcfcfc;
   padding: 16px 32px;
   border: none;
+  text-transform: uppercase;
 }
 
 .groupSection__groupTitle {
@@ -167,6 +168,7 @@ a {
   color: #fcfcfc;
   padding: 16px 32px;
   border: none;
+  text-transform: uppercase;
 }
 
 .footer {
